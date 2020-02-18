@@ -14,10 +14,10 @@ O Desafio requer que o desenvolvedor aplique as seguintes caracteristicas:
 
 ## User Stories
 
--   [ ] O usuário pode inserir até 8 digitos
--   [ ] O usuário deve ser notificado se qualquer outro caractere além de 0 ou 1 seja inserido
--   [ ] O usuário vê em um unico campo o equivalente decimal à entrada.
+-   [x] O usuário pode inserir até 8 digitos
+-   [x] O usuário deve ser notificado se qualquer outro caractere além de 0 ou 1 seja inserido
+-   [x] O usuário vê em um unico campo o equivalente decimal à entrada.
 
 ## Bonus
 
--   [ ] O usuário pode inserir uma variedade de quantidade de números binarios
+-   [x] O usuário pode inserir uma variedade de quantidade de números binarios
