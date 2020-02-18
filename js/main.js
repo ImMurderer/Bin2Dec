@@ -1,9 +1,11 @@
 const outputNode = document.querySelector("#output");
 const inputNode = document.querySelector("#input");
 const inputHandler = (e) => {
-  if(/[a-zA-Z]+/.test(e.target.value)) {
-		outputNode.innerHTML = "Not a valid binary number"
+  if(/[^01]/.test(e.target.value)) {
+		outputNode.innerHTML = "Not a valid binary number";
+		inputNode.style.border = "2px solid red";
   } else {
+		inputNode.style.border = "none";
 		outputNode.innerHTML = binaryToDec(e.target.value);
 	}
 };
